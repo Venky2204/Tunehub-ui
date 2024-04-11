@@ -1,0 +1,78 @@
+/* Navbar.css */
+.navbar {
+  /* background: linear-gradient(120deg,rgb(255, 0, 149)25%,rgb(255, 0, 230),rgb(255, 0, 230),rgb(195, 0, 255),white
+  , rgb(195, 0, 255),rgb(255, 0, 230),rgb(255, 0, 230),rgb(255, 0, 149),rgb(51, 0, 255)); */
+    background: #F97B22;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* box-shadow: inset -5px -5px 5px rgb(255, 255, 255); */
+    /* box-shadow: 5px 5px 10px #F97B22; */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-weight: bolder;
+  }
+  
+  /* .navbar-logo {
+    color:  rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-decoration: none;
+  } */
+  .lglogo{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .back{
+    position: absolute;
+    /* right: 5%; */
+    left:3%;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }
+  nav h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 960px) {
+    .navbar-container {
+      padding: 0 10px;
+    }
+    .nav-menu {
+      display: none;
+    }
+  }
+
+  .navbar-container a:last-child{
+    position: absolute;
+    right: 5%;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }
+  

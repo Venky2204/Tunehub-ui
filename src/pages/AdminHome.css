@@ -1,0 +1,26 @@
+
+.inform a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.inform{
+    width: 100%;
+    height: auto;
+    /* background: black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.informAnchor{
+    margin: 2px;
+    padding: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 49.7%;
+    height: 100px;
+    background: rgb(0, 0, 0);
+}
+/* .inform>.informAnchor:last-child{
+    width: 99.7%;
+} */
